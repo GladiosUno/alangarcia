@@ -71,18 +71,18 @@ top: 30px;
 }
 .soledad
 {
-  position: relative;
-  top: 72px;
-  left: -400px;
-  transform: scale(0.7);
+  position: absolute;
+  top: 57px;
+  left: -422px;
+  transform: scale(0.65);
   z-index: 4;
 }
 .obj1
 {
-  position: relative;
-  top: -605px;
-  right: -1066px;
-  z-index: 1000;
+  position: absolute;
+  top: 266px;
+  right: 347px;
+  z-index: 5;
   animation: rotation 6s infinite linear;
 }
 @keyframes rotation {
@@ -95,20 +95,20 @@ to {
 }
 .obj2
 {
-  position: relative;
-  top: -510px;
-  right: -976.8px;
-  z-index: 1000;
+  position: absolute;
+  top: 267px;
+  right: 373px;
+  z-index: 6;
   transform: scale(0.65);
 }
 .light1
 {
-  top: -615px;
-  right: -905px;
-  position: relative;
+  top: 272px;
+  right: 360px;
+  position: absolute;
   transform: scale(1.2);
   opacity: 1;
-  z-index: 1000;
+  z-index: 7;
   animation: mylight 7s ease-in-out 0s infinite;
 
 }
