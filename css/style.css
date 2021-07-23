@@ -69,12 +69,12 @@ top: 30px;
   z-index: 1000;
   transform: scale(0.7);
 }
-.soledad
+.soledadup
 {
   position: absolute;
-  top: 57px;
-  left: -422px;
-  transform: scale(0.65);
+  top: 130px;
+  left: -398px;
+  transform: scale(0.7);
   z-index: 4;
 }
 .obj1
