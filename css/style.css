@@ -1,9 +1,10 @@
 *
 {
-  margin: 0;
+  width: auto;
+  height: auto;
+  margin-left: 1px;
+  margin-right: 1px;
   padding: 0;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 .scene
@@ -73,25 +74,22 @@ top: 30px;
 {
   position: absolute;
   top: 130px;
-  left: -398px;
-  transform: scale(0.7);
+  right: -370px;
+  transform: scale(0.66);
   z-index: 4;
 }
 .obj1
 {
   position: absolute;
-  top: 266px;
-  right: 347px;
+  top: 248px;
+  right: 329px;
   z-index: 5;
   animation: rotation 6s infinite linear;
 }
 @keyframes rotation {
-from {
-  transform: rotate(0deg);
+0% { transform: rotate(0deg);
 }
-to {
-  transform: rotate(359deg);
-}
+ 100% {transform: rotate(359deg);}
 }
 .obj2
 {
