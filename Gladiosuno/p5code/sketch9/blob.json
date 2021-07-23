@@ -1,0 +1,63 @@
+{
+  "toons": [
+
+{
+  "name":"Tom Nook",
+  "present":30,
+  "presentMoveX":[3,-3,4,-2,6,-7,4,-5],
+  "presentMoveY":[1,-0.5,-0.2,0.3,-0.6,0.1,0.8,2],
+  "r":205,
+  "g":133,
+  "b":63,
+  "head": 40,
+  "torso": 30,
+  "posX":50,
+  "posY":90,
+  "posX2":60,
+  "posY2":100,
+  "moveX":[5,-3,4,-6,-3,3,4,-2],
+  "moveY":[2,4,4,6,-3,3,4,-2],
+  "nextX":0,
+  "nextY":0,
+  "rotate":90,
+  "size":10,
+  "accessory":1,
+  "tree":15,
+  "treex":200,
+  "treey":200,
+  "fruit":25,
+  "bubble":["upgrade?!","It'll only cost a little extra...."]
+},
+
+{
+  "name":"K.K",
+  "present":30,
+  "presentMoveX":[1.2,-3.5,4.7,-6.1,2.2,-0.3,6,-1.1],
+  "presentMoveY":[1,-0.5,-0.2,0.3,-0.6,0.1,0.8,2],
+  "r":255,
+  "g":255,
+  "b":255,
+  "head": 34,
+  "torso": 10,
+  "posX":190,
+  "posY":100,
+  "posX2":40,
+  "posY2":80,
+  "moveX":[0.5,-0.5,0.4,-2,-0.3,0.3,0.7,-0.2],
+  "moveY":[0.5,-0.5,0.4,-3,-0.3,3,-0.7,0.2],
+  "nextX":0,
+  "nextY":0,
+  "rotate":90,
+  "size":10,
+  "accessory":2,
+   "tree":10,
+  "treex":500,
+  "treey":150,
+  "fruit":15,
+  "bubble":["I have no money...","LEAVE ME ALONE!"]
+
+}
+
+]
+
+}

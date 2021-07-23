@@ -1,0 +1,186 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+
+}
+
+.scene
+{
+weight: 100vw;
+height: 400vh;
+background: rgb(36,86,155);
+ background: linear-gradient(182deg, rgba(36,86,155,1) 18%, rgba(159,78,145,1) 29%, rgba(255,132,28,1) 35%, rgba(255,132,28,1) 38%, rgba(16,24,46,1) 41%);
+  background-attachment: fixed;
+  overflow: hidden;
+}
+.home
+{
+  position: absolute;
+  top: 20%;
+  right: 39%;
+  z-index: inherit;
+}
+.aboutme
+{
+  position: absolute;
+  top: 20%;
+  right: 12%;
+  z-index: inherit;
+}
+.portfo
+{
+  position: absolute;
+  top: 24%;
+  right: 0%;
+  z-index: inherit;
+}
+.box
+{
+  top: 15.4%;
+  right: 50px;
+  width: 120%;
+  height: 1910px;
+  background: #10182e;
+  position: relative;
+
+}
+h1
+{
+  text-align: center;
+  color: #FF841C;
+  padding: 1em;
+  font-family: 'monaco', monospace;
+  font-size: 18pt;
+  text-decoration:underline;
+}
+h2
+{
+  text-align: center;
+  color: #FF841C;
+  padding: 1em;
+  font-family: 'monaco', monospace;
+  font-size: 18pt;
+  text-decoration:underline;
+}
+h3
+{
+  text-align: center;
+  color: #FF841C;
+  padding: 1em;
+  font-family: 'monaco', monospace;
+  font-size: 18pt;
+  text-decoration:underline;
+}
+h4
+{
+  top: 650px;
+  right: 920px;
+  position: absolute;
+  z-index: 1000;
+  color: white;
+  font-size: 14pt
+}
+p
+{
+padding: 1em;
+color: white;
+font-family: 'monaco', monospace;
+font-size: 14pt;
+}
+ul{
+  padding: 1em;
+  text-align: center;
+  list-style: inside;
+}
+li
+{
+
+  padding: 1em;
+  color: white;
+  font-family: 'monaco', monospace;
+  font-size: 14pt;
+}
+div
+{
+  padding: 1em;
+  line-height: 1.2;
+
+}
+.box2
+{
+  top: 830px;
+  right: 9%;
+  width: 1200px;
+  height: 930px;
+  background: #554B8C;
+  border-style: solid;
+  border-color: #FF841C;
+  position: absolute;
+
+}
+.aboutsole
+{
+  position: relative;
+  top: -1828px;
+  left: -400px;
+  transform: scale(0.7);
+  z-index: 1000;
+}
+.obj1
+{
+  position: relative;
+  top: -2173px;
+  right: -1063px;
+  z-index: 1000;
+  animation: rotation 6s infinite linear;
+}
+@keyframes rotation {
+from {
+  transform: rotate(0deg);
+}
+to {
+  transform: rotate(359deg);
+}
+}
+.obj2
+{
+  position: relative;
+  top: -2078px;
+  right: -973px;
+  z-index: 1000;
+  transform: scale(0.65);
+}
+.me
+{
+  position: absolute;
+  top: 450px;
+  right: 550px;
+  transform: scale(1.3);
+}
+.cadre
+{
+  top: 240%;
+  left: 15%;
+  position: absolute;
+  transform: scale(0.7);
+}
+.hitportfo
+{
+  top: 150px;
+  right: 0px;
+  position: absolute;
+  transform: scale(0.8);
+  z-index: 1000;
+}
+.hithome
+{
+  top: 100px;
+  right: 750px;
+  position: absolute;
+  transform: scale(0.8);
+  z-index: 1000;
+}

@@ -1,0 +1,212 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.scene
+{
+  height: 100vh;
+  weight: 100vw;
+  background: rgb(36,86,155);
+  background: linear-gradient(182deg, rgba(36,86,155,1) 18%, rgba(159,78,145,1) 29%, rgba(255,132,28,1) 35%, rgba(255,132,28,1) 38%, rgba(16,24,46,1) 41%);
+  overflow: hidden;
+}
+.musicOff
+{
+  top: 70px;
+  right: 1220px;
+  position: absolute;
+  z-index: 0;
+  transform: scale(1.2);
+  animation: opacity 10s infinite;
+}
+@keyframes opacity {
+  0% {opacity: 1;}
+  75% {opacity: 0.7;}
+  100% {opacity: 1;}
+}
+.musicOff:hover
+{
+top: 30px;
+}
+.home
+{
+  position: absolute;
+  top: 20%;
+  right: 39%;
+  z-index: 1;
+}
+.aboutme
+{
+  position: absolute;
+  top: 20%;
+  right: 12%;
+  z-index: 2;
+}
+.portfo
+{
+  position: absolute;
+  top: 25%;
+  right: 0%;
+  z-index: 3;
+}
+.hitabout
+{
+  position: absolute;
+  top: 150px;
+  right: -45px;
+  z-index: 1000;
+  transform: scale(0.7);
+}
+.hitportfo
+{
+  position: absolute;
+  top: 110px;
+  right: 345px;
+  z-index: 1000;
+  transform: scale(0.7);
+}
+.soledad
+{
+  position: relative;
+  top: 10%;
+  left: -400px;
+  transform: scale(0.7);
+  z-index: 1000;
+}
+.obj1
+{
+  position: relative;
+  top: -605px;
+  right: -1066px;
+  z-index: 1000;
+  animation: rotation 6s infinite linear;
+}
+@keyframes rotation {
+from {
+  transform: rotate(0deg);
+}
+to {
+  transform: rotate(359deg);
+}
+}
+.obj2
+{
+  position: relative;
+  top: -510px;
+  right: -976.8px;
+  z-index: 1000;
+  transform: scale(0.65);
+}
+.light1
+{
+  top: -615px;
+  right: -905px;
+  position: relative;
+  transform: scale(1.2);
+  opacity: 1;
+  z-index: 1000;
+  animation: mylight 7s ease-in-out 0s infinite;
+
+}
+@keyframes mylight {
+0% { opacity: 0;}
+50%{ opacity: 0;}
+75%{ opacity: 1;}
+100%{opacity: 0.3;}
+}
+.plane
+{
+  top: -930px;
+  right: 460px;
+  position: relative;
+  transform: scale(0.4);
+  z-index: 0;
+  animation: fly 85s ease-in-out 0s;
+}
+@keyframes fly {
+  0% {right: 460px;}
+  100%{right: -1150px;}
+}
+.plight
+{
+  top: -896px;
+  right: 311px;
+  position: relative;
+  transform: scale(0.5);
+  opacity: 1;
+  z-index: 1;
+  animation: fly2 85s ease-in-out 0s, mylight 1.5s infinite;
+}
+@keyframes fly2 {
+  0% {right: 311px;}
+  100% {right: -1300px;}
+}
+.plight2
+{
+  top: -892px;
+  right: 381px;
+  position: relative;
+  transform: scale(0.6);
+  opacity: 0;
+  z-index: 1;
+  animation: fly3 84.8s ease-in-out 0s, mylight 2s infinite;
+}
+@keyframes fly3 {
+  0% {right: 381px;}
+  100% {right: -1230px;}
+}
+.smoke
+{
+  top: 38px;
+  right: 1470px;
+  position: absolute;
+  z-index: 0;
+  height: 15px;
+  width: 45px;
+  animation: smoke1 118s ease-in-out 2.5s;
+}
+@keyframes smoke1 {
+  0% {width: 45px; right: 1470px;}
+  65% {width: 1500px; right:0px; opacity: 1}
+  100% {width: 1500px; right:0px; opacity: 0.4;}
+}
+h1
+{
+  top: 350px;
+  right: 1150px;
+  position: absolute;
+  z-index: 1000;
+  color: white;
+  font-size: 12pt
+}
+h2
+{
+  top: 645px;
+  right: 205px;
+  position: absolute;
+  z-index: 1000;
+  color: white;
+  font-size: 12pt
+}
+h3
+{
+  top: 0px;
+  right: 10px;
+  position: absolute;
+  z-index: 1000;
+  color: white;
+  font-size: 10pt
+}
+p
+{
+  top: 620px;
+  right: 180px;
+  position: absolute;
+  z-index: 1000;
+  color: white;
+  font-size: 12pt
+}
