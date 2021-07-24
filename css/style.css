@@ -2,8 +2,7 @@
 {
   width: auto;
   height: auto;
-  margin-left: 1px;
-  margin-right: 1px;
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
@@ -17,11 +16,11 @@
 }
 .musicOff
 {
-  top: 70px;
-  right: 1220px;
+  top: 160px;
+  right: 1670px;
   position: absolute;
   z-index: 0;
-  transform: scale(1.2);
+  transform: scale(1.5);
   animation: opacity 10s infinite;
 }
 @keyframes opacity {
@@ -36,22 +35,22 @@ top: 30px;
 .home
 {
   position: absolute;
-  top: 20%;
-  right: 39%;
+  top: 225px;
+  right: 860px;
   z-index: 1;
 }
 .aboutme
 {
   position: absolute;
-  top: 20%;
-  right: 12%;
+  top: 242px;
+  right: 400px;
   z-index: 2;
 }
 .portfo
 {
   position: absolute;
-  top: 25%;
-  right: 0%;
+  top: 270px;
+  right: 0px;
   z-index: 3;
 }
 .hitabout
@@ -73,9 +72,9 @@ top: 30px;
 .soledadup
 {
   position: absolute;
-  top: 130px;
-  right: -370px;
-  transform: scale(0.66);
+  top: 250px;
+  right: 0px;
+  transform: scale(1);
   z-index: 4;
 }
 .obj1
