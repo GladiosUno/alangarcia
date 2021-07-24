@@ -16,11 +16,11 @@
 }
 .musicOff
 {
-  top: 160px;
-  right: 1670px;
+  top: 180px;
+  right: 1640px;
   position: absolute;
   z-index: 0;
-  transform: scale(1.5);
+  transform: scale(1.8);
   animation: opacity 10s infinite;
 }
 @keyframes opacity {
@@ -36,36 +36,36 @@ top: 30px;
 {
   position: absolute;
   top: 225px;
-  right: 860px;
+  right: 840px;
   z-index: 1;
 }
 .aboutme
 {
   position: absolute;
-  top: 242px;
-  right: 400px;
+  top: 245px;
+  right: 350px;
   z-index: 2;
 }
 .portfo
 {
   position: absolute;
-  top: 270px;
+  top: 276px;
   right: 0px;
   z-index: 3;
 }
 .hitabout
 {
   position: absolute;
-  top: 150px;
-  right: -45px;
+  top: 270px;
+  right: -25px;
   z-index: 1000;
   transform: scale(0.7);
 }
 .hitportfo
 {
   position: absolute;
-  top: 110px;
-  right: 345px;
+  top: 240px;
+  right: 485px;
   z-index: 1000;
   transform: scale(0.7);
 }
@@ -77,11 +77,19 @@ top: 30px;
   transform: scale(1);
   z-index: 4;
 }
+.soledaddw
+{
+  position: absolute;
+  top: 630px;
+  right: 0px;
+  transform: scale(1);
+  z-index: 3;
+}
 .obj1
 {
   position: absolute;
-  top: 248px;
-  right: 329px;
+  top: 351px;
+  right: 433px;
   z-index: 5;
   animation: rotation 6s infinite linear;
 }
@@ -93,17 +101,17 @@ top: 30px;
 .obj2
 {
   position: absolute;
-  top: 267px;
-  right: 373px;
+  top: 415px;
+  right: 502px;
   z-index: 6;
-  transform: scale(0.65);
+  transform: scale(1);
 }
 .light1
 {
-  top: 272px;
-  right: 360px;
+  top: 394px;
+  right: 489px;
   position: absolute;
-  transform: scale(1.2);
+  transform: scale(1.5);
   opacity: 1;
   z-index: 7;
   animation: mylight 7s ease-in-out 0s infinite;
@@ -117,73 +125,75 @@ top: 30px;
 }
 .plane
 {
-  top: -930px;
-  right: 460px;
-  position: relative;
-  transform: scale(0.4);
-  z-index: 0;
+  top: 30px;
+  right: 1880px;
+  position: absolute;
+  transform: scale(0.5);
+  z-index: 4;
+  opacity: 1;
   animation: fly 85s ease-in-out 0s;
 }
 @keyframes fly {
-  0% {right: 460px;}
-  100%{right: -1150px;}
+  0% {right: 1880px; opacity: 1;}
+  99%{right: 5px; transform: scale(0.3); opacity: 0.7;}
+  100%{right: 0px; transform: scale(); opacity: 0;}
 }
 .plight
 {
-  top: -896px;
-  right: 311px;
-  position: relative;
+  top: -11px;
+  right: 1879px;
+  position: absolute;
   transform: scale(0.5);
-  opacity: 1;
-  z-index: 1;
-  animation: fly2 85s ease-in-out 0s, mylight 1.5s infinite;
+  opacity: 0;
+  z-index: 9;
+  animation: fly2 84s ease-in-out 0s, mylight 1.5s infinite; */
 }
 @keyframes fly2 {
-  0% {right: 311px;}
-  100% {right: -1300px;}
+  0% {right: 1879px; opacity: 1;}
+  100% {right: 5px; transform: scale(0.2); opacity: 0;}
 }
 .plight2
 {
-  top: -892px;
-  right: 381px;
-  position: relative;
+  top: -3px;
+  right: 1856px;
+  position: absolute;
   transform: scale(0.6);
   opacity: 0;
-  z-index: 1;
-  animation: fly3 84.8s ease-in-out 0s, mylight 2s infinite;
+  z-index: 10;
+  animation: fly3 83.4s ease-in-out 0s, mylight 2s infinite; */
 }
 @keyframes fly3 {
-  0% {right: 381px;}
-  100% {right: -1230px;}
+  0% {right: 1856px; opacity: 1;}
+  100% {right: 1px; transform: scale(0.2);}
 }
 .smoke
 {
-  top: 38px;
-  right: 1470px;
+  top: 29px;
+  right: 1920px;
   position: absolute;
   z-index: 0;
   height: 15px;
   width: 45px;
-  animation: smoke1 118s ease-in-out 2.5s;
+  animation: smoke1 110s ease-in-out 1.1s;
 }
 @keyframes smoke1 {
-  0% {width: 45px; right: 1470px;}
-  65% {width: 1500px; right:0px; opacity: 1}
-  100% {width: 1500px; right:0px; opacity: 0.4;}
+  0% {width: 45px; right: 1920px;}
+  77% {width: 1920px; right:0px; opacity: 1}
+  100% {width: 1920px; right:0px; opacity: 0.4;}
 }
 h1
 {
-  top: 350px;
-  right: 1150px;
+  top: 520px;
+  right: 1620px;
   position: absolute;
   z-index: 1000;
   color: white;
-  font-size: 12pt
+  font-size: 13pt
 }
 h2
 {
-  top: 645px;
-  right: 205px;
+  top: 890px;
+  right: 185px;
   position: absolute;
   z-index: 1000;
   color: white;
@@ -200,8 +210,8 @@ h3
 }
 p
 {
-  top: 620px;
-  right: 180px;
+  top: 870px;
+  right: 150px;
   position: absolute;
   z-index: 1000;
   color: white;
