@@ -130,7 +130,7 @@ top: 30px;
   position: absolute;
   transform: scale(0.5);
   z-index: 4;
-  opacity: 1;
+  opacity: 0;
   animation: fly 85s ease-in-out 0s;
 }
 @keyframes fly {
@@ -172,12 +172,13 @@ top: 30px;
   right: 1920px;
   position: absolute;
   z-index: 0;
+  opacity: 0;
   height: 15px;
   width: 45px;
   animation: smoke1 110s ease-in-out 1.1s;
 }
 @keyframes smoke1 {
-  0% {width: 45px; right: 1920px;}
+  0% {opacity: 1; width: 45px; right: 1920px;}
   77% {width: 1920px; right:0px; opacity: 1}
   100% {width: 1920px; right:0px; opacity: 0.4;}
 }
