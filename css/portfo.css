@@ -49,12 +49,12 @@ body
 }
 h3
 {
-  top: 300px;
-  right: 1100px;
+  top: 450px;
+  right: 1400px;
   position: absolute;
   z-index: 1000;
   color: white;
-  font-size: 12pt;
+  font-size: 14pt;
   font-family: 'monaco', monospace;
 }
 .obj1
