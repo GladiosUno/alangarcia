@@ -5,6 +5,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow:auto;
 }
 .scene
 {
@@ -12,7 +13,7 @@
   weight: 100vw;
   background: rgb(36,86,155);
   background: linear-gradient(182deg, rgba(36,86,155,1) 18%, rgba(159,78,145,1) 29%, rgba(255,132,28,1) 35%, rgba(255,132,28,1) 38%, rgba(16,24,46,1) 41%);
-  overflow: hidden;
+  overflow: auto;
 }
 .musicOff
 {
