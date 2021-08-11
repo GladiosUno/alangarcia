@@ -171,7 +171,7 @@ to {
 .hitportfo
 {
   top: 260px;
-  right: 0px;
+  right: -50px;
   position: absolute;
   transform: scale(0.8);
   z-index: 1000;
@@ -183,4 +183,185 @@ to {
   position: absolute;
   transform: scale(0.8);
   z-index: 1000;
+}
+@media all and (min-width: 1940px) {
+  .scene
+  {
+  weight: 100vw;
+  height: 240vh;
+  background: rgb(36,86,155);
+  background: linear-gradient(182deg, rgba(36,86,155,1) 18%, rgba(159,78,145,1) 29%, rgba(255,132,28,1) 35%, rgba(255,132,28,1) 38%, rgba(16,24,46,1) 41%);
+  background-attachment: fixed;
+  overflow: hidden;
+  }
+  .home
+  {
+    position: absolute;
+    top: 325px;
+    right: 1140px;
+    transform: scale(1.5);
+    z-index: inherit;
+  }
+  .aboutme
+  {
+    position: absolute;
+    top: 335px;
+    right: 455px;
+    transform: scale(1.5);
+    z-index: inherit;
+  }
+  .portfo
+  {
+    position: absolute;
+    top: 370px;
+    right: 124px;
+    transform: scale(1.5);
+    z-index: inherit;
+  }
+  .box
+  {
+    top: 21%;
+    right: 50px;
+    width: 120%;
+    height: 1910px;
+    background: #10182e;
+    position: relative;
+
+  }
+  h1
+  {
+    text-align: center;
+    color: #FF841C;
+    padding: 1em;
+    font-family: 'monaco', monospace;
+    font-size: 20pt;
+    text-decoration:underline;
+  }
+  h2
+  {
+    text-align: center;
+    color: #FF841C;
+    padding: 1em;
+    font-family: 'monaco', monospace;
+    font-size: 20pt;
+    text-decoration:underline;
+  }
+  h3
+  {
+    text-align: center;
+    color: #FF841C;
+    padding: 1em;
+    font-family: 'monaco', monospace;
+    font-size: 20pt;
+    text-decoration:underline;
+  }
+  h4
+  {
+    top: 1050px;
+    right: 1500px;
+    position: absolute;
+    z-index: 1000;
+    color: white;
+    font-size: 22pt
+  }
+  p
+  {
+  padding: 1em;
+  color: white;
+  font-family: 'monaco', monospace;
+  font-size: 16pt;
+  }
+  ul{
+    padding: 1em;
+    text-align: center;
+    list-style: inside;
+  }
+  li
+  {
+
+    padding: 1em;
+    color: white;
+    font-family: 'monaco', monospace;
+    font-size: 16pt;
+  }
+  div
+  {
+    padding: 1em;
+    line-height: 1.2;
+
+  }
+  .box2
+  {
+    top: 1300px;
+    right: 520px;
+    width: 1500px;
+    height: 1130px;
+    background: #554B8C;
+    border-style: solid;
+    border-color: #FF841C;
+    position: absolute;
+
+  }
+  .aboutsole
+  {
+    position: relative;
+    top: -1570px;
+    right: -10px;
+    transform: scale(1.3);
+    z-index: 1000;
+  }
+  .obj1
+  {
+    position: absolute;
+    top: 460px;
+    right: 590px;
+    z-index: 1000;
+    animation: rotation 6s infinite linear;
+  }
+  @keyframes rotation {
+  from {
+  width: 220px; height: 220px; transform: rotate(0deg);
+  }
+  to {
+    width: 220px; height: 220px; transform: rotate(359deg);
+  }
+  }
+  .obj2
+  {
+    position: absolute;
+    top: 570px;
+    right: 685px;
+    z-index: 1000;
+    transform: scale(1.3);
+  }
+  .me
+  {
+    position: absolute;
+    top: 860px;
+    right: 1100px;
+    transform: scale(1.7);
+  }
+  .cadre
+  {
+    top: 2400px;
+    left: 810px;
+    position: absolute;
+    transform: scale(0.9);
+  }
+  .hitportfo
+  {
+    top: 360px;
+    right: 0px;
+    position: absolute;
+    transform: scale(0.9);
+    z-index: 1000;
+  }
+  .hithome
+  {
+    top: 260px;
+    right: 1200px;
+    position: absolute;
+    transform: scale(0.9);
+    z-index: 1000;
+  }
 }

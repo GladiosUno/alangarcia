@@ -1,0 +1,223 @@
+*
+{
+  width: auto;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow:auto;
+}
+.scene
+{
+  height: 100vh;
+  weight: 100vw;
+  background: rgb(36,86,155);
+background: linear-gradient(183deg, rgba(36,86,155,1) 22%, rgba(159,78,145,1) 33%, rgba(255,132,28,1) 40%, rgba(255,132,28,1) 45%, rgba(16,24,46,1) 50%);
+  overflow: auto;
+}
+.musicOff
+{
+  top: 390px;
+  right: 2170px;
+  position: absolute;
+  z-index: 0;
+  transform: scale(2.6);
+  animation: opacity 10s infinite;
+}
+@keyframes opacity {
+  0% {opacity: 1;}
+  75% {opacity: 0.7;}
+  100% {opacity: 1;}
+}
+.musicOff:hover
+{
+top: 130px;
+}
+.home
+{
+  position: absolute;
+  top: 460px;
+  right: 1080px;
+  transform: scale(1.46);
+  z-index: 1;
+}
+.aboutme
+{
+  position: absolute;
+  top: 490px;
+  right: 490px;
+  transform: scale(1.45);
+  z-index: 2;
+}
+.portfo
+{
+  position: absolute;
+  top: 515px;
+  right: 110px;
+  transform: scale(1.45);
+  z-index: 3;
+}
+.hitabout
+{
+  position: absolute;
+  top: 470px;
+  right: 0px;
+  z-index: 1000;
+  transform: scale(1);
+}
+.hitportfo
+{
+  position: absolute;
+  top: 440px;
+  right: 595px;
+  z-index: 1000;
+  transform: scale(0.9);
+}
+.soledadup
+{
+  position: absolute;
+  top: 526px;
+  right: 385px;
+  transform: scale(1.35);
+  z-index: 4;
+}
+.soledaddw
+{
+  position: absolute;
+  top: 1040px;
+  right: 455px;
+  transform: scale(1.4);
+  z-index: 3;
+}
+.obj1
+{
+  position: absolute;
+  top: 563px;
+  right: 560px;
+  z-index: 5;
+  animation: rotation 6s infinite linear;
+}
+@keyframes rotation {
+0% {width: 290px; height: 290px; transform: rotate(0deg);}
+ 100% {width: 290px; height: 290px; transform: rotate(359deg);}
+}
+.obj2
+{
+  position: absolute;
+  top: 715px;
+  right: 689px;
+  z-index: 6;
+  transform: scale(1.4);
+}
+.light1
+{
+  top: 663px;
+  right: 675px;
+  position: absolute;
+  transform: scale(3);
+  opacity: 1;
+  z-index: 7;
+  animation: mylight 7s ease-in-out 0s infinite;
+
+}
+@keyframes mylight {
+0% { opacity: 0;}
+50%{ opacity: 0;}
+75%{ opacity: 1;}
+100%{opacity: 0.3;}
+}
+.plane
+{
+  top: 30px;
+  right: 2480px;
+  position: absolute;
+  transform: scale(0.8);
+  z-index: 4;
+  opacity: 0;
+  animation: fly 85s ease-in-out 0s;
+}
+@keyframes fly {
+  0% {right: 2480px; opacity: 1;}
+  99%{right: 5px; transform: scale(0.4); opacity: 0.7;}
+  100%{right: 0px; transform: scale(); opacity: 0;}
+}
+.plight
+{
+  top: -11px;
+  right: 2479px;
+  position: absolute;
+  transform: scale(0.7);
+  opacity: 0;
+  z-index: 9;
+  animation: fly2 84s ease-in-out 0s, mylight 1.5s infinite; */
+}
+@keyframes fly2 {
+  0% {right: 2479px; opacity: 1;}
+  100% {right: 5px; transform: scale(0.3); opacity: 0;}
+}
+.plight2
+{
+  top: -3px;
+  right: 2456px;
+  position: absolute;
+  transform: scale(0.7);
+  opacity: 0;
+  z-index: 10;
+  animation: fly3 83.4s ease-in-out 0s, mylight 2s infinite; */
+}
+@keyframes fly3 {
+  0% {right: 2456px; opacity: 1;}
+  100% {right: 1px; transform: scale(0.3);}
+}
+.smoke
+{
+  top: 29px;
+  right: 2520px;
+  position: absolute;
+  z-index: 0;
+  opacity: 0;
+  height: 15px;
+  width: 45px;
+  animation: smoke1 110s ease-in-out 1.1s;
+}
+@keyframes smoke1 {
+  0% {opacity: 1; width: 45px; right: 2520px;}
+  77% {width: 2520px; right:0px; opacity: 1}
+  100% {width: 2520px; right:0px; opacity: 0.4;}
+}
+h1
+{
+  top: 820px;
+  right: 1950px;
+  position: absolute;
+  z-index: 1000;
+  color: white;
+  font-size: 16pt
+}
+h2
+{
+  top: 1400px;
+  right: 185px;
+  position: absolute;
+  z-index: 1000;
+  color: white;
+  font-size: 13pt
+}
+h3
+{
+  top: 0px;
+  right: 10px;
+  position: absolute;
+  z-index: 1000;
+  color: white;
+  font-size: 12pt
+}
+p
+{
+  top: 1370px;
+  right: 150px;
+  position: absolute;
+  z-index: 1000;
+  color: white;
+  font-size: 14pt
+}
