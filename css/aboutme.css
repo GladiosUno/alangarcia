@@ -188,7 +188,7 @@ to {
   .scene
   {
   weight: 100vw;
-  height: 240vh;
+  height: 260vh;
   background: rgb(36,86,155);
   background: linear-gradient(182deg, rgba(36,86,155,1) 18%, rgba(159,78,145,1) 29%, rgba(255,132,28,1) 35%, rgba(255,132,28,1) 38%, rgba(16,24,46,1) 41%);
   background-attachment: fixed;
@@ -220,7 +220,7 @@ to {
   }
   .box
   {
-    top: 21%;
+    top: 23%;
     right: 50px;
     width: 120%;
     height: 1910px;
