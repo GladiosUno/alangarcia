@@ -478,6 +478,7 @@ top: 30px;
   position: absolute;
   top: 225px;
   right: 840px;
+  transform: scale(1);
   z-index: 1;
 }
 .aboutme
@@ -485,6 +486,7 @@ top: 30px;
   position: absolute;
   top: 245px;
   right: 350px;
+  transform: scale(1);
   z-index: 2;
 }
 .portfo
@@ -492,6 +494,7 @@ top: 30px;
   position: absolute;
   top: 276px;
   right: 0px;
+  transform: scale(1);
   z-index: 3;
 }
 .hitabout
