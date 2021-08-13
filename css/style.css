@@ -19,8 +19,8 @@
   }
   .musicOff
   {
-    top: -20px;
-    right: 180px;
+    top: -30px;
+    right: 200px;
     position: absolute;
     z-index: 0;
     transform: scale(0.4);
@@ -48,7 +48,7 @@
   {
     position: absolute;
     top: 130px;
-    right: -60px;
+    right: -50px;
     z-index: 2;
     transform: scale(0.5);
   }
@@ -66,15 +66,15 @@
     top: 150px;
     right: -140px;
     z-index: 1000;
-    transform: scale(0.35);
+    transform: scale(0.38);
   }
   .hitportfo
   {
     position: absolute;
-    top: 140px;
-    right: 30px;
+    top: 135px;
+    right: 50px;
     z-index: 1000;
-    transform: scale(0.35);
+    transform: scale(0.38);
   }
   .soledadup
   {
@@ -192,7 +192,7 @@
   h1
   {
     top: 500px;
-    right: 52px;
+    right: 70px;
     position: absolute;
     z-index: 1000;
     color: white;
@@ -201,7 +201,7 @@
   h2
   {
     top: 570px;
-    right: 115px;
+    right: 135px;
     position: absolute;
     z-index: 1000;
     color: white;
@@ -219,7 +219,7 @@
   p
   {
     top: 535px;
-    right: 85px;
+    right: 105px;
     position: absolute;
     z-index: 1000;
     color: white;
