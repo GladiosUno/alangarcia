@@ -228,7 +228,6 @@ p
     weight: 100vw;
     background: rgb(36,86,155);
   background: linear-gradient(182deg, rgba(36,86,155,1) 20%, rgba(159,78,145,1) 30%, rgba(255,132,28,1) 32%, rgba(255,132,28,1) 37%, rgba(16,24,46,1) 46%);
-    overflow: auto;
   }
   .musicOff
   {
@@ -277,9 +276,9 @@ p
   {
     position: absolute;
     top: 170px;
-    right: -125px;
+    right: -110px;
     z-index: 1000;
-    transform: scale(0.6);
+    transform: scale(0.5);
   }
   .hitportfo
   {
@@ -287,13 +286,13 @@ p
     top: 150px;
     right: 245px;
     z-index: 1000;
-    transform: scale(0.6);
+    transform: scale(0.5);
   }
   .soledadup
   {
     position: absolute;
     top: 150px;
-    right: -328px;
+    right: -327px;
     transform: scale(0.7);
     z-index: 4;
   }
@@ -301,7 +300,7 @@ p
   {
     position: absolute;
     top: 423px;
-    right: -333px;
+    right: -335px;
     transform: scale(0.7);
     z-index: 3;
   }
@@ -413,8 +412,8 @@ p
   }
   h2
   {
-    top: 760px;
-    right: 205px;
+    top: 670px;
+    right: 125px;
     position: absolute;
     z-index: 1000;
     color: white;
@@ -431,8 +430,8 @@ p
   }
   p
   {
-    top: 725px;
-    right: 180px;
+    top: 635px;
+    right: 100px;
     position: absolute;
     z-index: 1000;
     color: white;
