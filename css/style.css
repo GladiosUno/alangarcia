@@ -8,6 +8,7 @@
   overflow:auto;
 }
 /*---------------------------------------- 1080 resolution----------------------------------------*/
+@media all and (max-width: 1920px) {
 .scene
 {
   height: 100vh;
@@ -220,8 +221,9 @@ p
   color: white;
   font-size: 12pt
 }
+}
 /*-------------------------------------Tablet resolution----------------------------------------------------------*/
-@media all and (max-width: 1280px) {
+@media all and (max-width: 1024px) {
   .scene
   {
     height: 85vh;
