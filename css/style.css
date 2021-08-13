@@ -223,13 +223,14 @@ p
 }
 }
 /*-------------------------------------Tablet resolution----------------------------------------------------------*/
-@media all and (max-width: 1024px) {
+@media all and (max-width: 1300px) {
   .scene
   {
-    height: 85vh;
+    height: 100vh;
     weight: 100vw;
     background: rgb(36,86,155);
   background: linear-gradient(182deg, rgba(36,86,155,1) 20%, rgba(159,78,145,1) 30%, rgba(255,132,28,1) 32%, rgba(255,132,28,1) 37%, rgba(16,24,46,1) 46%);
+  overflow: auto;
   }
   .musicOff
   {
@@ -301,7 +302,7 @@ p
   .soledaddw
   {
     position: absolute;
-    top: 333px;
+    top: 308px;
     right: -450px;
     transform: scale(0.6);
     z-index: 3;
