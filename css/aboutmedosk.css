@@ -6,43 +6,42 @@
   box-sizing: border-box;
 
 }
-
 .scene
 {
 weight: 100vw;
-height: 240vh;
+height: 300vh;
 background: rgb(36,86,155);
- background: linear-gradient(182deg, rgba(36,86,155,1) 18%, rgba(159,78,145,1) 29%, rgba(255,132,28,1) 35%, rgba(255,132,28,1) 38%, rgba(16,24,46,1) 41%);
-  background-attachment: fixed;
-  overflow: hidden;
+background: linear-gradient(182deg, rgba(36,86,155,1) 3%, rgba(159,78,145,1) 5%, rgba(255,132,28,1) 5%, rgba(255,132,28,1) 22%, rgba(16,24,46,1) 56%);
+overflow: hidden;
 }
 .home
 {
   position: absolute;
-  top: 325px;
-  right: 1140px;
-  transform: scale(1.5);
+  top: 20px;
+  right: -50px;
+  transform: scale(0.48);
   z-index: inherit;
 }
 .aboutme
 {
   position: absolute;
-  top: 335px;
-  right: 455px;
-  transform: scale(1.5);
+  top: 110px;
+  right: 0px;
+  opacity: 0;
+  transform: scale(0.5);
   z-index: inherit;
 }
 .portfo
 {
   position: absolute;
-  top: 370px;
-  right: 124px;
-  transform: scale(1.5);
+  top: 30px;
+  right: -125px;
+  transform: scale(0.48);
   z-index: inherit;
 }
 .box
 {
-  top: 21%;
+  top: 120px;
   right: 50px;
   width: 120%;
   height: 1910px;
@@ -56,7 +55,7 @@ h1
   color: #FF841C;
   padding: 1em;
   font-family: 'monaco', monospace;
-  font-size: 20pt;
+  font-size: 12pt;
   text-decoration:underline;
 }
 h2
@@ -65,7 +64,7 @@ h2
   color: #FF841C;
   padding: 1em;
   font-family: 'monaco', monospace;
-  font-size: 20pt;
+  font-size: 12pt;
   text-decoration:underline;
 }
 h3
@@ -74,24 +73,24 @@ h3
   color: #FF841C;
   padding: 1em;
   font-family: 'monaco', monospace;
-  font-size: 20pt;
+  font-size: 12pt;
   text-decoration:underline;
 }
 h4
 {
-  top: 1050px;
-  right: 1500px;
+  top: 510px;
+  right: 80px;
   position: absolute;
   z-index: 1000;
   color: white;
-  font-size: 22pt
+  font-size: 13pt
 }
 p
 {
 padding: 1em;
 color: white;
 font-family: 'monaco', monospace;
-font-size: 16pt;
+font-size: 11pt;
 }
 ul{
   padding: 1em;
@@ -104,7 +103,7 @@ li
   padding: 1em;
   color: white;
   font-family: 'monaco', monospace;
-  font-size: 16pt;
+  font-size: 11pt;
 }
 div
 {
@@ -114,10 +113,10 @@ div
 }
 .box2
 {
-  top: 1300px;
-  right: 520px;
-  width: 1500px;
-  height: 1130px;
+  top: 560px;
+  right: 5px;
+  width: 400px;
+  height: 1175px;
   background: #554B8C;
   border-style: solid;
   border-color: #FF841C;
@@ -127,62 +126,62 @@ div
 .aboutsole
 {
   position: relative;
-  top: -1570px;
-  right: -10px;
-  transform: scale(1.3);
+  top: -1980px;
+  right: 960px;
+  transform: scale(0.35);
   z-index: 1000;
 }
 .obj1
 {
-  position: absolute;
-  top: 460px;
-  right: 590px;
+  position: relative;
+  top: -2254px;
+  right: -702px;
   z-index: 1000;
   animation: rotation 6s infinite linear;
 }
 @keyframes rotation {
 from {
-width: 220px; height: 220px; transform: rotate(0deg);
+ width: 110px; height: 110px; transform: rotate(0deg);
 }
 to {
-  width: 220px; height: 220px; transform: rotate(359deg);
+  width: 110px; height: 110px; transform: rotate(359deg);
 }
 }
 .obj2
 {
-  position: absolute;
-  top: 570px;
-  right: 685px;
+  position: relative;
+  top: -2175px;
+  right: -609px;
   z-index: 1000;
-  transform: scale(1.3);
+  transform: scale(0.5);
 }
 .me
 {
   position: absolute;
-  top: 860px;
-  right: 1100px;
-  transform: scale(1.7);
+  top: 190px;
+  right: 55px;
+  transform: scale(0.9);
 }
 .cadre
 {
-  top: 2400px;
-  left: 810px;
+  top: 1450px;
+  right: -295px;
   position: absolute;
-  transform: scale(0.9);
+  transform: scale(0.4);
 }
 .hitportfo
 {
-  top: 360px;
-  right: 0px;
+  top: 40px;
+  right: -144px;
   position: absolute;
-  transform: scale(0.9);
+  transform: scale(0.42);
   z-index: 1000;
 }
 .hithome
 {
-  top: 260px;
-  right: 1200px;
+  top: 30px;
+  right: 70px;
   position: absolute;
-  transform: scale(0.9);
+  transform: scale(0.4);
   z-index: 1000;
 }
