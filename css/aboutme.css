@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 /*--------------------------------------phone resolution ----------------------------------------------------------*/
-@media all and (min-width: 360px) {
+@media all and (min-width: 280px) {
 .scene
   {
   weight: 100vw;
@@ -135,26 +135,26 @@
   .obj1
   {
     position: relative;
-    top: -2254px;
-    right: -702px;
+    top: -2342px;
+    right: -330px;
     z-index: 1000;
     animation: rotation 6s infinite linear;
   }
   @keyframes rotation {
   from {
-   width: 110px; height: 110px; transform: rotate(0deg);
+   width: 75px; height: 75px; transform: rotate(0deg);
   }
   to {
-    width: 110px; height: 110px; transform: rotate(359deg);
+    width: 75px; height: 75px; transform: rotate(359deg);
   }
   }
   .obj2
   {
     position: relative;
-    top: -2175px;
-    right: -609px;
+    top: -2256px;
+    right: -255px;
     z-index: 1000;
-    transform: scale(0.5);
+    transform: scale(0.36);
   }
   .me
   {
