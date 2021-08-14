@@ -80,7 +80,7 @@
   h4
   {
     top: 510px;
-    right: 80px;
+    right: 70px;
     position: absolute;
     z-index: 1000;
     color: white;
@@ -115,9 +115,9 @@
   .box2
   {
     top: 560px;
-    right: 5px;
+    right: 6px;
     width: 400px;
-    height: 1175px;
+    height: 1215px;
     background: #554B8C;
     border-style: solid;
     border-color: #FF841C;
@@ -165,7 +165,7 @@
   }
   .cadre
   {
-    top: 1450px;
+    top: 1480px;
     right: -295px;
     position: absolute;
     transform: scale(0.4);

@@ -20,7 +20,7 @@
   .musicOff
   {
     top: -30px;
-    right: 200px;
+    right: 50px;
     position: absolute;
     z-index: 0;
     transform: scale(0.4);
