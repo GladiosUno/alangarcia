@@ -117,7 +117,7 @@
     top: 560px;
     right: 6px;
     width: 400px;
-    height: 1215px;
+    height: 1235px;
     background: #554B8C;
     border-style: solid;
     border-color: #FF841C;
@@ -165,10 +165,10 @@
   }
   .cadre
   {
-    top: 1490px;
+    top: 1500px;
     right: -295px;
     position: absolute;
-    transform: scale(0.4);
+    transform: scale(0.38);
   }
   .hitportfo
   {
