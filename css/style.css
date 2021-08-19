@@ -253,6 +253,7 @@
   .musicOff:hover
   {
   top: 30px;
+  transform: scale(0.6);
   }
   .home
   {
@@ -472,6 +473,7 @@
 .musicOff:hover
 {
 top: 30px;
+transform: scale(1.8);
 }
 .home
 {
@@ -690,6 +692,7 @@ p
   .musicOff:hover
   {
   top: 130px;
+  transform: scale(2.6);
   }
   .home
   {

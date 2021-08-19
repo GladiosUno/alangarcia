@@ -6,83 +6,82 @@ body
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   font-family: sans-serif
-
 }
 .scene
 {
   weight: 98.88vw;
-  height: 60vh;
+  height: 27vh;
   background: rgb(36,86,155);
- background: linear-gradient(183deg, rgba(36,86,155,1) 18%, rgba(159,78,145,1) 29%, rgba(255,132,28,1) 35%, rgba(255,132,28,1) 38%, rgba(16,24,46,1) 41%);
-  background-attachment: fixed;
+  background: linear-gradient(182deg, rgba(36,86,155,1) 10%, rgba(159,78,145,1) 47%, rgba(255,132,28,1) 50%, rgba(255,132,28,1) 49%, rgba(16,24,46,1) 55%);
   overflow: hidden;
 }
 .home
 {
   position: absolute;
-  top: 350px;
-  right: 1120px;
-  transform: scale(1.35);
+  top: -15px;
+  right: -60px;
+  transform: scale(0.35);
   z-index: 0;
 }
 .aboutme
 {
   position: absolute;
-  top: 380px;
-  right: 530px;
-  transform: scale(1.35);
+  top: 8px;
+  right: -205px;
+  transform: scale(0.35);
   z-index: inherit;
 }
 .portfo
 {
   position: absolute;
-  top: 420px;
-  right: 83px;
-  transform: scale(1.35);
+  top: 95px;
+  right: -120px;
+  opacity: 0;
+  transform: scale(0.5);
   z-index: 0;
 }
 
 .aboutsole
 {
   position: relative;
-  top: 425px;
-  right: 20px;
-  transform: scale(1.3);
+  top: -70px;
+  right: 950px;
+  transform: scale(0.3);
   z-index: 100;
 }
 h3
 {
-  top: 670px;
-  right: 1800px;
+  top: 125px;
+  right: 210px;
   position: absolute;
   z-index: 1000;
   color: white;
-  font-size: 18pt;
+  font-size: 8pt;
   font-family: 'monaco', monospace;
 }
 .obj1
 {
-  position: absolute;
-  top: 500px;
-  right: 636px;
+  position: relative;
+  top: -433px;
+  right: -314px;
   z-index: 1000;
   animation: rotation 6s infinite linear;
 }
 @keyframes rotation {
 from {
-width: 220px; height: 220px; transform: rotate(0deg);
+  width: 70px; height: 70px; transform: rotate(0deg);
 }
 to {
-  width: 220px; height: 220px; transform: rotate(359deg);
+  width: 70px; height: 70px; transform: rotate(359deg);
 }
 }
 .obj2
 {
-  position: absolute;
-  top: 610px;
-  right: 730px;
+  position: relative;
+  top: -350px;
+  right: -243px;
   z-index: 1000;
-  transform: scale(1.3);
+  transform: scale(0.3);
 }
 .container
 {
@@ -101,9 +100,9 @@ to {
       justify-content: center;
       align-items: center;
       width: 100vw;
-      height: 130vh;
+      height: 230vh;
       scroll-snap-align: start;
-      scroll-margin-left: 50px;
+      scroll-margin-left: 10px;
       color: white;
     }
     :nth-of-type(1)
@@ -127,91 +126,59 @@ to {
 .illus
 {
       position: relative;
-      left: -25%;
-      top: 35%;
-      transform: scale(1.3);
+      left: -5%;
+      top: -20px;
+      transform: scale(0.8);
     }
-.illus:hover
-{
-  border-width: thick;
-  border-style: solid;
-  border-radius: 50px;
-  border-color: #FF841C;
-}
 .vids
 {
        position: relative;
-       left: -25%;
-       top: 15%;
-       transform: scale(1.3);
-}
-.vids:hover
-{
-  border-width: thick;
-  border-style: solid;
-  border-radius: 50px;
-  border-color: #FF841C;
+       left: -5%;
+       top: -20px;
+       transform: scale(0.8);
 }
 .prog
 {
-  position: relative;
-  left: -25%;
-  top: -5%;
-  transform: scale(1.3);
-}
-.prog:hover
-{
-  border-width: thick;
-  border-style: solid;
-  border-radius: 50px;
-  border-color: #FF841C;
+       position: relative;
+       left: -5%;
+       top: -20px;
+       transform: scale(0.8);
 }
 .td
 {
-  position: relative;
-  left: -25%;
-  top: -25%;
-  transform: scale(1.3);
-}
-.td:hover
-{
-  border-width: thick;
-  border-style: solid;
-  border-radius: 50px;
-  border-color: #FF841C;
+       position: relative;
+       left: -5%;
+       top: -20px;
+       transform: scale(0.8);
 }
 .box
 {
   position: relative;
-  top: -550px;
-  right: -730px;
+  top: -535px;
+  right: -120px;
   height: 170px;
-  min-width: 1200px;
+  min-width: 400px;
   /* background: black;*/
 
 }
 h2
 {
   text-align: center;
-  font-size: 22pt;
-}
-p{
-  font-size: 20pt;
 }
 .illuslogo
 {
   position: relative;
-  top: -790px;
-  right: -1550px;
-  transform: scale(1.2);
+  top: -745px;
+  right: -530px;
+  transform: scale(0.6);
 }
 #featured
 {
   position: relative;
-  top: 50px;
-  right: 530px;
-  max-width: 1300px;
-  max-height: 900px;
+  top: -300px;
+  right: 270px;
+  max-width: 400px;
+  max-height: 230px;
   object-fit: cover;
   cursor: pointer;
   /*border: 2px solid black;*/
@@ -220,8 +187,8 @@ p{
 {
   position: relative;
   object-fit: cover;
-  max-width: 210px;
-  max-height: 110px;
+  max-width: 180px;
+  max-height: 80px;
   cursor: pointer;
   opacity: 0.5;
   margin: 5px;
@@ -234,9 +201,9 @@ p{
 #slide-wrapper
 {
   position: relative;
-  top: 600px;
-  right: 1450px;
-  max-width: 500px;
+  top: -100px;
+  right: 600px;
+  max-width: 300px;
   display: flex;
   min-height: 100px;
   align-items: center;
@@ -254,7 +221,6 @@ p{
   height: 30px;
   cursor: pointer;
   transition: .3s;
-  transform: scale(1.2);
 }
 .arrow:hover
 {
@@ -266,230 +232,234 @@ p{
 .boxv1
 {
   position: relative;
-  top: -350px;
-  right: -1350px;
-  height: 170px;
-  min-width: 950px;
+  top: -348px;
+  right: 410px;
+  height: 120px;
+  min-width: 350px;
   background: #C880B6;
+  font-size: 11pt;
   padding: 1em;
 }
 .boxv2
 {
   position: relative;
-  top: 0px;
-  right: -370px;
-  height: 170px;
-  min-width: 950px;
+  top: 10px;
+  right: 790px;
+  height: 120px;
+  min-width: 350px;
   background: #C880B6;
+  font-size: 11pt;
   padding: 1em;
 }
 .boxv3
 {
   position: relative;
   top: 360px;
-  right: 610px;
-  height: 170px;
-  min-width: 950px;
+  right: 1170px;
+  height: 100px;
+  min-width: 350px;
   background: #C880B6;
+  font-size: 11pt;
   padding: 1em;
 }
 .boxv4
 {
   position: relative;
   top: 700px;
-  right: 1600px;
-  height: 170px;
-  min-width: 950px;
+  right: 1550px;
+  height: 100px;
+  min-width: 350px;
+  font-size: 11pt;
   background: #C880B6;
   padding: 1em;
 }
 .video1
 {
   position: relative;
-  top: -350px;
-  right: -2500px;
+  top: -530px;
+  right: -1900px;
   border: 3px solid #87C540;
+  transform: scale(0.6);
 }
 .video2
 {
   position: relative;
-  top: 0px;
-  right: -2045px;
+  top: -168px;
+  right: -1295px;
   border: 3px solid #87C540;
+  transform: scale(0.6);
 }
 .video3
 {
   position: relative;
-  top:350px;
-  right: -1590px;
+  top: 190px;
+  right: -685px;
   border: 3px solid #87C540;
+  transform: scale(0.6);
 }
 .video4
 {
   position: relative;
-  top: 700px;
-  right: -1130px;
+  top: 530px;
+  right: -80px;
   border: 3px solid #87C540;
+  transform: scale(0.6);
 }
 .videologo
 {
   position: relative;
-  top: -770px;
-  right: 2800px;
-  transform: scale(1.3);
+  top: -740px;
+  right: 1975px;
+  transform: scale(0.6);
 }
 a[href="p5code/sketch8/index.html"]
 {
   position: relative;
-  top: -240px;
-  left: -2250px;
+  top: -215px;
+  left: -1950px;
   min-width: 100px;
   background: #FFE500;
   border: 3px solid #FFE500;
   text-decoration-color: #85C1E9;
   color: red;
-  font-size: 20pt;
 }
 a[href="p5code/sketch8/sketch.js"]
 {
   position: relative;
-  top: -240px;
-  left: -2200px;
-  min-width: 200px;
-  background: #FFE500;
-  border: 3px solid #FFE500;
-  text-decoration-color: #85C1E9;
-  color: red;
-  font-size: 20pt;
-}
-a[href="p5code/p3/index.html"]
-{
-  position: relative;
-  top: 255px;
-  left: -2560px;
-  min-width: 100px;
-  background: #FFE500;
-  border: 3px solid #FFE500;
-  text-decoration-color: #85C1E9;
-  color: red;
-  font-size: 20pt;
-}
-a[href="p5code/p3/sketch.js"]
-{
-  position: relative;
-  top: 255px;
-  left: -2510px;
-  min-width: 200px;
-  background: #FFE500;
-  border: 3px solid #FFE500;
-  text-decoration-color: #85C1E9;
-  color: red;
-  font-size: 20pt;
-}
-a[href="p5code/sketch9/index.html"]
-{
-  position: relative;
-  top: 745px;
-  left: -2870px;
-  min-width: 100px;
-  background: #FFE500;
-  border: 3px solid #FFE500;
-  text-decoration-color: #85C1E9;
-  color: red;
-  font-size: 20pt;
-}
-a[href="p5code/sketch9/sketch.js"]
-{
-  position: relative;
-  top: 745px;
-  left: -2820px;
-  min-width: 200px;
-  background: #FFE500;
-  border: 3px solid #FFE500;
-  text-decoration-color: #85C1E9;
-  color: red;
-  font-size: 20pt;
-}
-a[href="p5code/sketch9/blob.json"]
-{
-  position: relative;
-  top: 745px;
-  left: -2700px;
+  top: -215px;
+  left: -1930px;
   min-width: 150px;
   background: #FFE500;
   border: 3px solid #FFE500;
   text-decoration-color: #85C1E9;
   color: red;
-  font-size: 20pt;
+}
+a[href="p5code/p3/index.html"]
+{
+  position: relative;
+  top: 275px;
+  left: -2210px;
+  min-width: 100px;
+  background: #FFE500;
+  border: 3px solid #FFE500;
+  text-decoration-color: #85C1E9;
+  color: red;
+}
+a[href="p5code/p3/sketch.js"]
+{
+  position: relative;
+  top: 275px;
+  left: -2200px;
+  min-width: 150px;
+  background: #FFE500;
+  border: 3px solid #FFE500;
+  text-decoration-color: #85C1E9;
+  color: red;
+}
+a[href="p5code/sketch9/index.html"]
+{
+  position: relative;
+  top: 737px;
+  left: -2530px;
+  min-width: 100px;
+  background: #FFE500;
+  border: 3px solid #FFE500;
+  text-decoration-color: #85C1E9;
+  color: red;
+}
+a[href="p5code/sketch9/sketch.js"]
+{
+  position: relative;
+  top: 737px;
+  left: -2540px;
+  min-width: 150px;
+  background: #FFE500;
+  border: 3px solid #FFE500;
+  text-decoration-color: #85C1E9;
+  color: red;
+}
+a[href="p5code/sketch9/blob.json"]
+{
+  position: relative;
+  top: 737px;
+  left: -2540px;
+  min-width: 100px;
+  background: #FFE500;
+  border: 3px solid #FFE500;
+  text-decoration-color: #85C1E9;
+  color: red;
 }
 .pro1
 {
   position: relative;
-  top: -300px;
-  right: -220px;
-  transform: scale(0.65);
+  top: -475px;
+  right: -1046px;
+  transform: scale(0.35);
 }
 .pro2
 {
   position: relative;
-  top: 185px;
-  right: 1260px;
-  transform: scale(0.5);
+  top: -30px;
+  right: 440px;
+  transform: scale(0.3);
 }
 .pro3
 {
   position: relative;
-  top: 690px;
-  right: 2220px;
-  transform: scale(0.6);
+  top: 445px;
+  right: 1400px;
+  transform: scale(0.38);
 }
 .boxjs1
 {
   position: relative;
-  top: -310px;
-  right: -3300px;
-  height: 160px;
-  min-width: 700px;
+  top: -275px;
+  right: -2512px;
+  height: 130px;
+  min-width: 350px;
   background: #FFE500;
+  font-size: 11pt;
   padding: 1em;
   border: 4px solid #85C1E9;
 }
 .boxjs2
 {
   position: relative;
-  top: 180px;
-  right: -2560px;
-  height: 160px;
-  min-width: 700px;
+  top: 215px;
+  right: -2125px;
+  height: 130px;
+  min-width: 350px;
   background: #FFE500;
+  font-size: 11pt;
   padding: 1em;
   border: 4px solid #85C1E9;
 }
 .boxjs3
 {
   position: relative;
-  top: 670px;
-  right: -1820px;
-  height: 160px;
-  min-width: 700px;
+  top: 675px;
+  right: -1738px;
+  height: 130px;
+  min-width: 350px;
   background: #FFE500;
+  font-size: 11pt;
   padding: 1em;
   border: 4px solid #85C1E9;
 }
 .jslogo
 {
   position: relative;
-  top: -740px;
-  right: 100px;
-  transform: scale(1.3);
+  top: -730px;
+  right: -320px;
+  transform: scale(0.6);
 }
 #featured2
 {
   position: relative;
-  top: 60px;
-  right: 420px;
-  max-width: 1100px;
-  max-height: 750px;
+  top: -280px;
+  right: 260px;
+  max-width: 400px;
+  max-height: 230px;
   object-fit: cover;
   cursor: pointer;
   /*border: 2px solid black;*/
@@ -512,11 +482,11 @@ a[href="p5code/sketch9/blob.json"]
 #slide-wrapper2
 {
   position: relative;
-  top: 460px;
-  right: 1100px;
-  max-width: 500px;
+  top: -50px;
+  right: 620px;
+  max-width: 300px;
   display: flex;
-  min-height: 150px;
+  min-height: 100px;
   align-items: center;
 }
 #slider2
@@ -532,7 +502,6 @@ a[href="p5code/sketch9/blob.json"]
   height: 30px;
   cursor: pointer;
   transition: .3s;
-  transform: scale(1.2);
 }
 .arrow2:hover
 {
@@ -544,19 +513,19 @@ a[href="p5code/sketch9/blob.json"]
 .tdlogo
 {
   position: relative;
-  top: -770px;
-  right: -1080px;
-  transform: scale(1.3);
+  top: -740px;
+  right: -545px;
+  transform: scale(0.6);
 }
 .box3d1
 {
   position: relative;
-  top: -350px;
-  right: -500px;
+  top: -340px;
+  right: -150px;
   height: 520px;
-  min-width: 800px;
+  min-width: 380px;
   background: #10182e;
-  font-size: 20pt;
+  font-size: 11pt;
   padding: 1em;
   line-height: 1.5;
   font-family: 'monaco', monospace;
@@ -564,31 +533,33 @@ a[href="p5code/sketch9/blob.json"]
 .navbar
 {
   position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  left: 0;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
   z-index: 1;
   display: flex;
   background: #554B8C;
 }
 .navbar ul
 {
-  display: inline-grid;
+  display: block;
+  width: 370px;
+  height: 50px;
   justify-content: center;
 }
 .hithome
 {
-  top: 260px;
-  right: 1250px;
+  top: 0px;
+  right: 60px;
   position: absolute;
-  transform: scale(1.1);
+  transform: scale(0.4);
   z-index: 1000;
 }
 .hitabout
 {
-  top: 320px;
-  right: 570px;
+  top: 10px;
+  right: -145px;
   position: absolute;
-  transform: scale(1.1);
+  transform: scale(0.40);
   z-index: 1000;
 }
