@@ -7,6 +7,565 @@ body
   box-sizing: border-box;
   font-family: sans-serif
 }
+/*------------------------------------ iPhoneX resolutio -------------------------*/
+@media all and (min-width: 320px) {
+  .scene
+  {
+    weight: 98.88vw;
+    height: 27vh;
+    background: rgb(36,86,155);
+    background: linear-gradient(182deg, rgba(36,86,155,1) 10%, rgba(159,78,145,1) 47%, rgba(255,132,28,1) 50%, rgba(255,132,28,1) 49%, rgba(16,24,46,1) 55%);
+    overflow: hidden;
+  }
+  .home
+  {
+    position: absolute;
+    top: -15px;
+    right: -60px;
+    transform: scale(0.35);
+    z-index: 0;
+  }
+  .aboutme
+  {
+    position: absolute;
+    top: 8px;
+    right: -205px;
+    transform: scale(0.35);
+    z-index: inherit;
+  }
+  .portfo
+  {
+    position: absolute;
+    top: 95px;
+    right: -120px;
+    opacity: 0;
+    transform: scale(0.5);
+    z-index: 0;
+  }
+
+  .aboutsole
+  {
+    position: relative;
+    top: -70px;
+    right: 950px;
+    transform: scale(0.3);
+    z-index: 100;
+  }
+  h3
+  {
+    top: 125px;
+    right: 190px;
+    position: absolute;
+    z-index: 1000;
+    color: white;
+    font-size: 8pt;
+    font-family: 'monaco', monospace;
+  }
+  .obj1
+  {
+    position: relative;
+    top: -433px;
+    right: -314px;
+    z-index: 1000;
+    animation: rotation 6s infinite linear;
+  }
+  @keyframes rotation {
+  from {
+    width: 70px; height: 70px; transform: rotate(0deg);
+  }
+  to {
+    width: 70px; height: 70px; transform: rotate(359deg);
+  }
+  }
+  .obj2
+  {
+    position: relative;
+    top: -350px;
+    right: -243px;
+    z-index: 1000;
+    transform: scale(0.3);
+  }
+  .container
+  {
+    width: 100%;
+    height: 100%;
+    scroll-snap-type: x proximity;
+    overflow-x: scroll;
+    display: flex;
+    scroll-behavior: smooth;
+    background-color: #10182e;
+      }
+      section
+      {
+        flex: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 230vh;
+        scroll-snap-align: start;
+        scroll-margin-left: 10px;
+        color: white;
+      }
+      :nth-of-type(1)
+      {
+        /*background-color: rgb(28,28,28);*/
+
+      }
+      :nth-of-type(2)
+      {
+        /* background-color: rgb(38,38,38);*/
+
+      }
+      :nth-of-type(3)
+      {
+        color: black;
+      }
+      :nth-of-type(4)
+      {
+        color: #86CB9F;
+      }
+  .illus
+  {
+        position: relative;
+        left: -5%;
+        top: -20px;
+        transform: scale(0.8);
+      }
+  .vids
+  {
+         position: relative;
+         left: -5%;
+         top: -20px;
+         transform: scale(0.8);
+  }
+  .prog
+  {
+         position: relative;
+         left: -5%;
+         top: -20px;
+         transform: scale(0.8);
+  }
+  .td
+  {
+         position: relative;
+         left: -5%;
+         top: -20px;
+         transform: scale(0.8);
+  }
+  .box
+  {
+    position: relative;
+    top: -490px;
+    right: -115px;
+    height: 170px;
+    min-width: 370px;
+    /* background: black;*/
+
+  }
+  h2
+  {
+    text-align: center;
+  }
+  .illuslogo
+  {
+    position: relative;
+    top: -710px;
+    right: -515px;
+    transform: scale(0.6);
+  }
+  #featured
+  {
+    position: relative;
+    top: -255px;
+    right: 255px;
+    max-width: 400px;
+    max-height: 230px;
+    object-fit: cover;
+    cursor: pointer;
+    /*border: 2px solid black;*/
+  }
+  .thumbnail
+  {
+    position: relative;
+    object-fit: cover;
+    max-width: 280px;
+    max-height: 80px;
+    cursor: pointer;
+    opacity: 0.5;
+    margin: 5px;
+    border: 2px solid #FF841C;
+  }
+  .thumbnail:hover
+  {
+    opacity:1;
+  }
+  #slide-wrapper
+  {
+    position: relative;
+    top: -65px;
+    right: 590px;
+    max-width: 300px;
+    display: flex;
+    min-height: 100px;
+    align-items: center;
+  }
+  #slider
+  {
+    width: 440px;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: hidden;
+  }
+  .arrow
+  {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    transition: .3s;
+  }
+  .arrow:hover
+  {
+    opacity: .5;
+    width: 35px;
+    height: 35px;
+
+  }
+  .boxv1
+  {
+    position: relative;
+    top: -290px;
+    right: 440px;
+    height: 120px;
+    min-width: 330px;
+    background: #C880B6;
+    font-size: 10.5pt;
+    padding: 1em;
+  }
+  .boxv2
+  {
+    position: relative;
+    top: 70px;
+    right: 800px;
+    height: 120px;
+    min-width: 330px;
+    background: #C880B6;
+    font-size: 11pt;
+    padding: 1em;
+  }
+  .boxv3
+  {
+    position: relative;
+    top: 420px;
+    right: 1160px;
+    height: 100px;
+    min-width: 330px;
+    background: #C880B6;
+    font-size: 11pt;
+    padding: 1em;
+  }
+  .boxv4
+  {
+    position: relative;
+    top: 760px;
+    right: 1518px;
+    height: 100px;
+    min-width: 330px;
+    font-size: 11pt;
+    background: #C880B6;
+    padding: 1em;
+  }
+  .video1
+  {
+    position: relative;
+    top: -470px;
+    right: -1858px;
+    border: 3px solid #87C540;
+    transform: scale(0.58);
+  }
+  .video2
+  {
+    position: relative;
+    top: -110px;
+    right: -1253px;
+    border: 3px solid #87C540;
+    transform: scale(0.58);
+  }
+  .video3
+  {
+    position: relative;
+    top: 250px;
+    right: -645px;
+    border: 3px solid #87C540;
+    transform: scale(0.58);
+  }
+  .video4
+  {
+    position: relative;
+    top: 590px;
+    right: -40px;
+    border: 3px solid #87C540;
+    transform: scale(0.58);
+  }
+  .videologo
+  {
+    position: relative;
+    top: -710px;
+    right: 1935px;
+    transform: scale(0.6);
+  }
+  a[href="p5code/sketch8/index.html"]
+  {
+    position: relative;
+    top: -215px;
+    left: -1950px;
+    min-width: 100px;
+    background: #FFE500;
+    border: 3px solid #FFE500;
+    text-decoration-color: #85C1E9;
+    color: red;
+  }
+  a[href="p5code/sketch8/sketch.js"]
+  {
+    position: relative;
+    top: -215px;
+    left: -1930px;
+    min-width: 150px;
+    background: #FFE500;
+    border: 3px solid #FFE500;
+    text-decoration-color: #85C1E9;
+    color: red;
+  }
+  a[href="p5code/p3/index.html"]
+  {
+    position: relative;
+    top: 275px;
+    left: -2210px;
+    min-width: 100px;
+    background: #FFE500;
+    border: 3px solid #FFE500;
+    text-decoration-color: #85C1E9;
+    color: red;
+  }
+  a[href="p5code/p3/sketch.js"]
+  {
+    position: relative;
+    top: 275px;
+    left: -2200px;
+    min-width: 150px;
+    background: #FFE500;
+    border: 3px solid #FFE500;
+    text-decoration-color: #85C1E9;
+    color: red;
+  }
+  a[href="p5code/sketch9/index.html"]
+  {
+    position: relative;
+    top: 737px;
+    left: -2525px;
+    min-width: 100px;
+    background: #FFE500;
+    border: 3px solid #FFE500;
+    text-decoration-color: #85C1E9;
+    color: red;
+  }
+  a[href="p5code/sketch9/sketch.js"]
+  {
+    position: relative;
+    top: 737px;
+    left: -2535px;
+    min-width: 150px;
+    background: #FFE500;
+    border: 3px solid #FFE500;
+    text-decoration-color: #85C1E9;
+    color: red;
+  }
+  a[href="p5code/sketch9/blob.json"]
+  {
+    position: relative;
+    top: 737px;
+    left: -2535px;
+    min-width: 100px;
+    background: #FFE500;
+    border: 3px solid #FFE500;
+    text-decoration-color: #85C1E9;
+    color: red;
+  }
+  .pro1
+  {
+    position: relative;
+    top: -475px;
+    right: -1060px;
+    transform: scale(0.35);
+  }
+  .pro2
+  {
+    position: relative;
+    top: -30px;
+    right: 430px;
+    transform: scale(0.3);
+  }
+  .pro3
+  {
+    position: relative;
+    top: 445px;
+    right: 1383px;
+    transform: scale(0.38);
+  }
+  .boxjs1
+  {
+    position: relative;
+    top: -275px;
+    right: -2505px;
+    height: 130px;
+    min-width: 340px;
+    background: #FFE500;
+    font-size: 11pt;
+    padding: 1em;
+    border: 4px solid #85C1E9;
+  }
+  .boxjs2
+  {
+    position: relative;
+    top: 215px;
+    right: -2125px;
+    height: 130px;
+    min-width: 340px;
+    background: #FFE500;
+    font-size: 11pt;
+    padding: 1em;
+    border: 4px solid #85C1E9;
+  }
+  .boxjs3
+  {
+    position: relative;
+    top: 675px;
+    right: -1747px;
+    height: 130px;
+    min-width: 340px;
+    background: #FFE500;
+    font-size: 11pt;
+    padding: 1em;
+    border: 4px solid #85C1E9;
+  }
+  .jslogo
+  {
+    position: relative;
+    top: -710px;
+    right: -320px;
+    transform: scale(0.6);
+  }
+  #featured2
+  {
+    position: relative;
+    top: -280px;
+    right: 260px;
+    max-width: 385px;
+    max-height: 220px;
+    object-fit: cover;
+    cursor: pointer;
+    /*border: 2px solid black;*/
+  }
+  .thumbnail2
+  {
+    position: relative;
+    object-fit: cover;
+    max-width: 180px;
+    max-height: 100px;
+    cursor: pointer;
+    opacity: 0.5;
+    margin: 5px;
+    border: 2px solid #86CB9F;
+  }
+  .thumbnail2:hover
+  {
+    opacity:1;
+  }
+  #slide-wrapper2
+  {
+    position: relative;
+    top: -50px;
+    right: 590px;
+    max-width: 300px;
+    display: flex;
+    min-height: 100px;
+    align-items: center;
+  }
+  #slider2
+  {
+    width: 440px;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: hidden;
+  }
+  .arrow2
+  {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    transition: .3s;
+  }
+  .arrow2:hover
+  {
+    opacity: .5;
+    width: 35px;
+    height: 35px;
+
+  }
+  .tdlogo
+  {
+    position: relative;
+    top: -700px;
+    right: -545px;
+    transform: scale(0.6);
+  }
+  .box3d1
+  {
+    position: relative;
+    top: -340px;
+    right: -145px;
+    height: 520px;
+    min-width: 370px;
+    background: #10182e;
+    font-size: 11pt;
+    padding: 1em;
+    line-height: 1.5;
+    font-family: 'monaco', monospace;
+  }
+  .navbar
+  {
+    position: -webkit-sticky;
+    position: fixed;
+    bottom: 0px;
+    left: -17px;
+    z-index: 1;
+    display: flex;
+    background: #554B8C;
+  }
+  .navbar ul
+  {
+    display: block;
+    width: 370px;
+    height: 50px;
+    justify-content: center;
+  }
+  .hithome
+  {
+    top: 0px;
+    right: 60px;
+    position: absolute;
+    transform: scale(0.4);
+    z-index: 1000;
+  }
+  .hitabout
+  {
+    top: 10px;
+    right: -145px;
+    position: absolute;
+    transform: scale(0.40);
+    z-index: 1000;
+  }
+}
 /*------------------------------------ Phone resolutio -------------------------*/
 @media all and (min-width: 400px) {
   .scene
