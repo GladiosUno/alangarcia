@@ -369,6 +369,188 @@
     z-index: 1000;
   }
 }
+/*-------------------------------------phone wide resolution----------------------------------------------------------*/
+@media all and (min-width: 667px) {
+  .scene
+  {
+  weight: 100vw;
+  height: 530vh;
+  background: rgb(36,86,155);
+  background: linear-gradient(182deg, rgba(36,86,155,1) 6%, rgba(159,78,145,1) 15%, rgba(255,132,28,1) 19%, rgba(255,132,28,1) 24%, rgba(16,24,46,1) 56%);
+  overflow: hidden;
+  }
+  .home
+  {
+    position: absolute;
+    top: 0px;
+    right: 120px;
+    transform: scale(0.48);
+    z-index: inherit;
+  }
+  .aboutme
+  {
+    position: absolute;
+    top: 20px;
+    right: -30px;
+    opacity: 1;
+    transform: scale(0.5);
+    z-index: inherit;
+  }
+  .portfo
+  {
+    position: absolute;
+    top: 30px;
+    right: -125px;
+    transform: scale(0.48);
+    z-index: inherit;
+  }
+  .box
+  {
+    top: 210px;
+    right: 50px;
+    width: 120%;
+    height: 1910px;
+    background: #10182e;
+    position: relative;
+
+  }
+  h1
+  {
+    text-align: center;
+    color: #FF841C;
+    padding: 1em;
+    font-family: 'monaco', monospace;
+    font-size: 12pt;
+    text-decoration:underline;
+  }
+  h2
+  {
+    text-align: center;
+    color: #FF841C;
+    padding: 1em;
+    font-family: 'monaco', monospace;
+    font-size: 12pt;
+    text-decoration:underline;
+  }
+  h3
+  {
+    text-align: center;
+    color: #FF841C;
+    padding: 1em;
+    font-family: 'monaco', monospace;
+    font-size: 12pt;
+    text-decoration:underline;
+  }
+  h4
+  {
+    top: 470px;
+    right: 270px;
+    position: absolute;
+    z-index: 1000;
+    color: white;
+    font-size: 13pt
+  }
+  p
+  {
+  padding: 1em;
+  color: white;
+  font-family: 'monaco', monospace;
+  font-size: 11pt;
+  }
+  ul{
+    padding: 1em;
+    text-align: center;
+    list-style: inside;
+  }
+  li
+  {
+
+    padding: 1em;
+    color: white;
+    font-family: 'monaco', monospace;
+    font-size: 11pt;
+  }
+  div
+  {
+    padding: 1em;
+    line-height: 1.2;
+
+  }
+  .box2
+  {
+    top: 540px;
+    right: 105px;
+    width: 595px;
+    height: 1020px;
+    background: #554B8C;
+    border-style: solid;
+    border-color: #FF841C;
+    position: absolute;
+
+  }
+  .aboutsole
+  {
+    position: relative;
+    top: -2000px;
+    right: 750px;
+    transform: scale(0.4);
+    z-index: 1000;
+  }
+  .obj1
+  {
+    position: relative;
+    top: -2356px;
+    right: -565px;
+    z-index: 1000;
+    animation: rotation 6s infinite linear;
+  }
+  @keyframes rotation {
+  from {
+   width: 75px; height: 75px; transform: rotate(0deg);
+  }
+  to {
+    width: 75px; height: 75px; transform: rotate(359deg);
+  }
+  }
+  .obj2
+  {
+    position: relative;
+    top: -2270px;
+    right: -491px;
+    z-index: 1000;
+    transform: scale(0.36);
+  }
+  .me
+  {
+    position: absolute;
+    top: 160px;
+    right: 257px;
+    transform: scale(0.8);
+  }
+  .cadre
+  {
+    top: 1285px;
+    right: -100px;
+    position: absolute;
+    transform: scale(0.4);
+  }
+  .hitportfo
+  {
+    top: 40px;
+    right: -144px;
+    position: absolute;
+    transform: scale(0.42);
+    z-index: 1000;
+  }
+  .hithome
+  {
+    top: 10px;
+    right: 300px;
+    position: absolute;
+    transform: scale(0.45);
+    z-index: 1000;
+  }
+}
 /*-------------------------------------tablet resolution ----------------------------------------------------------*/
 @media all and (min-width: 1023px) {
   .scene
